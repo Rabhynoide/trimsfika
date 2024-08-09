@@ -8,6 +8,8 @@ ARG FIKA=HEAD^
 ARG FIKA_BRANCH=main
 ARG SPT=HEAD^
 ARG SPT_BRANCH=3.9.x-DEV
+ARG TRIMS=HEAD^
+ARG TRIMS_BRANCH=main
 ARG NODE=20.11.1
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
@@ -39,6 +41,10 @@ RUN rm -rf srv/
 RUN git clone --branch $FIKA_BRANCH https://github.com/project-fika/Fika-Server.git ./server/user/mods/fika-server
 RUN \. $HOME/.nvm/nvm.sh && cd ./server/user/mods/fika-server && git checkout $FIKA && npm install
 RUN rm -rf ./server/user/mods/FIKA/.git
+## Grab Server Mods from TRIMS
+RUN git clone --branch $TRIMS_BRANCH https://github.com/Rabhynoide/trimsfika.git ./server/tmpMODS
+RUN cp -r ./server/tmpMODS/files/user ./server
+RUN rm -Rf ./server/tmpMODS
 
 FROM ubuntu:latest
 WORKDIR /opt/
