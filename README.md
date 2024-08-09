@@ -25,13 +25,13 @@ sudo docker run --pull=never -v /"local path to server"/:/opt/server -p 6969:696
 
 | Mod | Version Prod | Compatible SPT | Version Dev | Compatible SPT |
 | ---      | ---      | ---      | ---      | ---      |
-| OpticRework | 1.2.2 | | |
-| BRNVG - N-15 Adapter | 1.0.1 | | |
-| SPTQuestingBots | 0.7.0 | | |
-| Fontaine FOV Fix | 2.1.1 | | |
-| SPT Realism Mod | 1.4.1 | | |
-| SWAG + DONUTS | 3.5.1 | | |
-| LootingBots-ServerMod | 1.3.5 | | |
-| True Items Redone | 1.2.1 | | |
-| Fika server | 2.2.6 | | |
-| SAIN | 3.0.5 | | |
+| OpticRework | 1.2.2 | 3.0.0-3.3.0 (OK 3.9.4) | 1.2.2 | 3.0.0-3.3.0 (OK 3.9.4) |
+| BRNVG - N-15 Adapter | 1.0.1 | 3.9.4 | |
+| SPTQuestingBots | 0.7.0 | 3.9.X (OK 3.9.4) | 0.7.0 | 3.9.X (OK 3.9.4) |
+| Fontaine FOV Fix | 2.1.1 | 3.9.4 | |
+| SPT Realism Mod | 1.4.1 | 3.9.4 | 1.4.2 | 3.9.5 |
+| SWAG + DONUTS | 3.5.1 | 3.9.X (OK 3.9.4) | 3.5.1 | 3.9.X (OK 3.9.4) |
+| LootingBots-ServerMod | 1.3.5 | 3.9.0 (OK 3.9.4) | 1.3.5 | 3.9.0 (OK 3.9.4) |
+| True Items Redone | 1.2.1 | 3.9.4 | |
+| Fika server | 2.2.6 | 3.9.4 | 2.2.7 | ? |
+| SAIN | 3.0.5 | 3.9.X | 3.1.0 | 3.9.X |
