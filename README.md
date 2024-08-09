@@ -23,15 +23,15 @@ sudo docker run --pull=never -v /"local path to server"/:/opt/server -p 6969:696
 
 ## Mods list
 
-Mod | Version Prod | Compatible SPT | Version Dev | Compatible SPT
-------------- | ------------- | ------------- | -------------
-OpticRework | 1.2.2 | |
-BRNVG - N-15 Adapter | 1.0.1 | |
-SPTQuestingBots | 0.7.0 | |
-Fontaine FOV Fix | 2.1.1 | |
-SPT Realism Mod | 1.4.1 | |
-SWAG + DONUTS | 3.5.1 | |
-LootingBots-ServerMod | 1.3.5 | |
-True Items Redone | 1.2.1 | |
-Fika server | 2.2.6 | |
-SAIN | 3.0.5 | |
+| Mod | Version Prod | Compatible SPT | Version Dev | Compatible SPT |
+| ---      | ---      | ---      | ---      | ---      |
+| OpticRework | 1.2.2 | | |
+| BRNVG - N-15 Adapter | 1.0.1 | | |
+| SPTQuestingBots | 0.7.0 | | |
+| Fontaine FOV Fix | 2.1.1 | | |
+| SPT Realism Mod | 1.4.1 | | |
+| SWAG + DONUTS | 3.5.1 | | |
+| LootingBots-ServerMod | 1.3.5 | | |
+| True Items Redone | 1.2.1 | | |
+| Fika server | 2.2.6 | | |
+| SAIN | 3.0.5 | | |
